@@ -1,0 +1,27 @@
+Package: PATHway
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.2.0)
+Imports:
+    dplyr,
+    clusterProfiler,
+    tidyr,
+    ggplot2,
+    ggstatsplot,
+    magrittr,
+    org.Hs.eg.db,
+    stats,
+    readr
+License: GPL (>= 3)
+Suggests: 
+    renv
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
