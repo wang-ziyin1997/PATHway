@@ -8,20 +8,21 @@ Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: xz
 Depends:
     R (>= 4.2.0)
 Imports:
     dplyr,
     clusterProfiler,
-    tidyr,
     ggplot2,
-    ggstatsplot,
     magrittr,
     org.Hs.eg.db,
     stats,
-    readr，
+    readr,
     stringr,
-    enrichplot
+    enrichplot,
+    grDevices,
+    gridExtra
 License: GPL (>= 3)
 Suggests: 
     renv

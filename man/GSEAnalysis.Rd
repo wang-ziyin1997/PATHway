@@ -6,8 +6,17 @@
 \usage{
 GSEAnalysis(data, outpath)
 }
+\arguments{
+\item{data}{a named gene list with EntrezID format sorted by log2FC.}
+
+\item{outpath}{output pathway}
+}
+\value{
+a set of GSEA plots and a data table
+}
 \description{
-GSEAnalysis
+Generates GSEA results and GSEA plots for the top ten pathways
+sorted by p-value and Enrichment Score, respectively.
 }
 \details{
 GSEA Analysis on log2FC ranked DEGs
