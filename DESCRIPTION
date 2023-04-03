@@ -19,7 +19,9 @@ Imports:
     magrittr,
     org.Hs.eg.db,
     stats,
-    readr
+    readr，
+    stringr,
+    enrichplot
 License: GPL (>= 3)
 Suggests: 
     renv
