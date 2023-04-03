@@ -25,9 +25,9 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(PATHway)
-DEGsData <- DEGsData(Yourfilepath, EntrezID=EntrezID, log2FC=log2FoldChange)
-GSEAres <- GSEAnalysis(DEGsData,Youroutpath)
-GSEA_histogram(GSEAres,Youroutpath)
-GSEA_bubble(GSEAres,Youroutpath)
+DEGsData <- PATHway::DEGsData(Yourfilepath, EntrezID=EntrezID, log2FC=log2FoldChange)
+GSEAres <- PATHway::GSEAnalysis(DEGsData,Youroutpath)
+PATHway::GSEA_histogram(GSEAres,Youroutpath)
+PATHway::GSEA_bubble(GSEAres,Youroutpath)
 ```
 
