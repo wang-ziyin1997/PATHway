@@ -1,14 +1,11 @@
 
 # PATHway
 
-`PATHway` is an R package for performing Gene Set Enrichment Analysis (GSEA)  
-and visualizing the results.
+`PATHway` is an R package for performing Gene Set Enrichment Analysis (GSEA) and visualizing the results.
 
 ## Installation
 
-To install the latest version of `PATHway` directly from GitHub,  
-you can use the `devtools` package:  
-[GitHub](https://github.com/wang-ziyin1997/PATHway) with:
+To install the latest version of `PATHway` directly from GitHub, you can use the `devtools` package: [GitHub](https://github.com/wang-ziyin1997/PATHway) with:
 
 ``` r
 # Install devtools if you haven't already
