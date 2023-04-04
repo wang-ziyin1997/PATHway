@@ -5,7 +5,19 @@
 
 ## Installation
 
-To install the latest version of `PATHway` directly from GitHub, you can use the `devtools` package: [GitHub](https://github.com/wang-ziyin1997/PATHway) with:
+To install the latest version of `PATHway` directly from GitHub, you can use the `devtools` package: [GitHub](https://github.com/wang-ziyin1997/PATHway) with:  
+
+1. Install the required Bioconductor packages, clusterProfiler (https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html), org.Hs.eg.db (https://bioconductor.org/packages/release/data/annotation/html/org.Hs.eg.db.html), enrichplot(https://bioconductor.org/packages/release/bioc/html/enrichplot.html) need to be download by BiocManager. :
+
+```R
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("clusterProfiler")
+BiocManager::install("org.Hs.eg.db")
+BiocManager::install("enrichplot")
+```
+
 
 ``` r
 # Install devtools if you haven't already
@@ -15,8 +27,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 
 devtools::install_github("wang-ziyin1997/PATHway")
 ```  
-  
-Package clusterProfiler (https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html), org.Hs.eg.db (https://bioconductor.org/packages/release/data/annotation/html/org.Hs.eg.db.html), enrichplot(https://bioconductor.org/packages/release/bioc/html/enrichplot.html) need to be download by BiocManager.  
+
 
 ## Usage  
 After installing the package, you can load it using `library(PATHway)`.  
