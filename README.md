@@ -38,7 +38,7 @@ Use test csv to test the code.
 library(PATHway)
 test_file <- system.file("extdata", "test_data.csv", package = "PATHway")
 DEGs <- DEGsData(file = test_file, EntrezID = "EntrezID", log2FC = "log2FoldChange")
-GSEAres <- PATHway::GSEAnalysis(DEGsData,Youroutpath)
+GSEAres <- PATHway::GSEAnalysis(DEGs,Youroutpath)
 PATHway::GSEA_histogram(GSEAres,Youroutpath)
 PATHway::GSEA_bubble(GSEAres,Youroutpath)
 ```
